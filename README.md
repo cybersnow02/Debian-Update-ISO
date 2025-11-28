@@ -9,7 +9,7 @@ with an upgraded one (of the same distribution name, the same Major version), WI
 It is also used for Offline use, if you don't have access to the Internet or if you are a technician that want to update remote systems for an Intranet.
 These steps will create new ISOs that will supersede the ISOs you
 already downloaded/installed in the past, so it takes alot less disk space
-because only the updated packages are included in the Update-ISOs set. Remember: you cannot upgrade rom a different Major Release with these Update ISOs! For example, Upgrading from Debian Bookworm to Trixie cannot be done with these ISOs set. What work could be Debian 13.1 to 13.2 Upgrade or Debian 10.0 to 10.13.   
+because only the updated packages are included in the Update-ISOs set. Remember: you cannot upgrade from a different Major Release with these Update ISOs! For example, Upgrading from Debian Bookworm to Trixie cannot be done. What could work for an upgrade (examples): Debian 13.1 to 13.2 or Debian 10.0 to 10.13.   
 So don't delete your older ISOs! You will still need them!
 As soon as you will have your new Update-ISOs built, you can
 mount/burn them and add them to your system manually with these commands
