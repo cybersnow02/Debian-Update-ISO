@@ -131,7 +131,7 @@ lftp -c 'set http:user-agent "Mozilla/5.0 (Windows; U; Windows NT 10.0; rv:97.0)
 
 
 We need to download the remote structure/folder named 'dists' for the
-wanted architectures (AMD64 et iI386).
+wanted distribution and architectures (AMD64 and I386).
 Again, if you want to change the Archs, you must understand the
  --exclude parameter (see the lftp manual)
 ``` shell
