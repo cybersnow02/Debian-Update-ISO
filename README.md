@@ -7,10 +7,10 @@ Why you need this?
 The Update-ISO sets is a way to update your actual Debian distribution
 with an updated one (of the same distribution name), WITHOUT downloading the whole new ISOs sets.
 It is also used for Offline use, if you don't have access to the Internet or if you are a technician that want to update remote systems for an Intranet.
-These steps will create new ISOs that will superseed the ISOs you
-already downloaded in the past. So it takes alot less disk space
+These steps will create new ISOs that will supersede the ISOs you
+already downloaded in the past, so it takes alot less disk space
 because only the updated packages are included in the Update-ISOs set.
-So don't delete your older ISOs! You will still need them!
+Don't delete your older ISOs! You will still need them!
 As soon as you will have your new Update-ISOs built, you can
 mount/burn them and add them to your system manually with these commands
 IN ROOT:
