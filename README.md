@@ -12,7 +12,7 @@ already downloaded in the past. So it takes alot less disk space
 because only the updated packages are included in the Update-ISOs set.
 So don't delete your older ISOs! You will still need them!
 As soon as you will have your new Update-ISOs built, you can
-mount/burn them and add them to your system manually with this command
+mount/burn them and add them to your system manually with these commands
 IN ROOT:
 ``` shell
 mount debian-update-13.2.0-amd64-DVD-1.iso /media/cdrom
