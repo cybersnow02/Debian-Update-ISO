@@ -5,7 +5,7 @@ Make your own Debian Update ISO sets, so you can update your Debian Distribution
 
 Why you need this?
 The Update-ISO sets is a way to update your actual Debian distribution
-with a newer one, WITHOUT downloading the whole new ISOs sets.
+with an updated one (of the same distribution name), WITHOUT downloading the whole new ISOs sets.
 These steps will create new ISOs that will superseed the ISO you
 already downloaded in the past. So it take alot less disk space
 because only the updated packages are included in the Update-ISOs set.
