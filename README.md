@@ -37,8 +37,8 @@ that can handle gigabytes in size. You must have at least 60Gb
 or more. Newer Debian Release tend to grow in size so I suggest 100Gb.
 
 As soon as you decided where to put all the files, you can make the
-folder where you will put all the files. This is what we call
-'the working place'. In this script, I've chosen :
+'working' folder (named debian) that will contain all the files. This is what we call
+'the working place'. In this How-To, I've chosen :
 '/home/user/Desktop/debian' to be the 'the working place'.
 Replace that with your own path.
 
