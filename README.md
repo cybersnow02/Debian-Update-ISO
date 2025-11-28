@@ -1,4 +1,4 @@
-# Debian-Update-ISO - Build your own Update-ISO sets
+# Build your own Update-ISO sets
 Make your own Debian Update ISO sets, so you can update your Debian Distribution faster without the need to download the whole Debian ISO sets again and again after each new release.
 
 # Instructions - How-To-Do-It
