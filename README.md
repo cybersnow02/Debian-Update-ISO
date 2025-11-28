@@ -71,7 +71,7 @@ mkdir -p /home/user/Desktop/debian/deb-cd/tmp/trixie-update/cd-out
 We need to download a 'DIFF' file, which permit to know the
 differences between the first release and the actual one.
 Visit this website: https://salsa.debian.org/images-team/package-lists
-For example, if the latest Debian version is 13.2, we need to download
+. For example, if the latest Debian version is 13.2, we need to download
 the file 'r0-r2.diff' under 'trixie' remote folder.
 Put this file under: /home/user/Desktop/debian/
 ``` shell
@@ -84,7 +84,7 @@ We need to modify some parameters/lines in the file:
 '/usr/share/debian-cd/update-cd'
 Open this file with your text editor.
 Change the following lines according to the wanted version and paths.
-If you are using cds, change 'dvd' for 'cd'
+If you are using cds, change 'dvd' for 'cd'. 
 The Architectures (Archs) used here are AMD64 and I386.
 You can decide to change that and use a supported one by Debian.
 ``` shell
