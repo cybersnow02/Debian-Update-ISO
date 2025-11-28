@@ -6,8 +6,9 @@ Make your own Debian Update ISO sets, so you can update your Debian Distribution
 Why you need this?
 The Update-ISO sets is a way to update your actual Debian distribution
 with an updated one (of the same distribution name), WITHOUT downloading the whole new ISOs sets.
-These steps will create new ISOs that will superseed the ISO you
-already downloaded in the past. So it take alot less disk space
+It is also used for Offline use, if you don't have access to the Internet or if you are a technician that want to update remote systems for an Intranet.
+These steps will create new ISOs that will superseed the ISOs you
+already downloaded in the past. So it takes alot less disk space
 because only the updated packages are included in the Update-ISOs set.
 So don't delete your older ISOs! You will still need them!
 As soon as you will have your new Update-ISOs built, you can
@@ -23,6 +24,11 @@ apt-cdrom -d=/media/cdrom add
 ```
 ...
 And so on for all generated ISO...
+... Then update your system:
+``` shell
+apt-get update
+apt-get dist-upgrade
+```
 
 
 Before you start, you need to decide where your files will be
