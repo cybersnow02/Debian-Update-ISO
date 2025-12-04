@@ -48,6 +48,7 @@ with the one you want to work with.
 
 The ISOs Updates will be built against AMD64 and I386 Architectures.
 If you want to use something else, see below.
+Also, since Debian Trixie (13), the I386 Arch installation ISOs aren't distributed anymore (The full ISO set is not published anymore). It doesn't mean all the I386 packages are abandoned! There are still many packages and librairies available/built for I386 in the Debian Pool. Some programs rely on I386 Arch. So I recommend you also make the ISO-Update set for I386 Arch. You could need them one day for a particular task. You will notice, for Debian Trixie, that the ISOs Update sets produced for I386 will be less than half the size compared with the AMD64 ISOs set. This is normal. But for Debian Bookworm (12), the ISOs Update sets for both Arch will be about the same size.
 
 
 Let's start!
