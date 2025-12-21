@@ -102,7 +102,7 @@ You can decide to change that and use a supported one by Debian.
 	OUT=/home/user/Desktop/debian/deb-cd/tmp/trixie-update/cd-out
 	TYPE=dvd
 	DIFF=/home/user/Desktop/debian/r0-r2.diff
-	ARCHLIST="amd64 i386" amd64 -all dealt with specially
+	ARCHLIST="amd64 i386" # amd64 # -all dealt with specially
 ```
 
 
