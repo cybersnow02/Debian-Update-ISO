@@ -126,7 +126,7 @@ automatically with the same command.
 This will take alot of time depending of your Internet speed...
 ``` shell
 cd /home/user/Desktop/debian/ftp/debian
-cat to_download.txt | shuf | xargs -n10 -P4 wget -x -nH --cut-dirs=1 --continue
+cat ../../to_download.txt | shuf | xargs -n10 -P4 wget -x -nH --cut-dirs=1 --continue
 ```
 
 
