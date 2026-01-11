@@ -150,7 +150,8 @@ lftp -c 'set http:user-agent "Mozilla/5.0 (Windows; U; Windows NT 10.0; rv:97.0)
 We now start the script 'update-cd' to build our Updates ISO files:
 This will take some time...
 ``` shell
-/usr/share/debian-cd/update-cd
+cd /usr/share/debian-cd/
+./update-cd
 ```
 
 
